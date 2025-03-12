@@ -28,6 +28,19 @@
         "write",
         "manage"
       ]
+    },
+    {
+      "names": [
+        "logs-*",
+        "logs-hsm",
+        "logs-hsm-*"
+      ],
+      "privileges": [
+        "read",
+        "write",
+        "all",
+        "create_index"
+      ]
     }
   ]
 }
